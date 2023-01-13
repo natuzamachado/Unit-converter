@@ -40,10 +40,10 @@ function convertUnit(){
 
          gallonToLiter = inputNumber.value * gallon;
          msg1Row2 = `${inputNumber.value} liter = ${gallonToLiter.toFixed(3)} gallons`;
-         gToL.innerHTML = msg1Row2;
          literToGallons = inputNumber.value / gallon;
          msg2Row2 = `${inputNumber.value} gallon = ${literToGallons.toFixed(3)} liters`;
-         lToG.innerHTML = msg2Row2;
+         gToL.innerHTML = msg2Row2;
+         lToG.innerHTML = msg1Row2;
 
          kiloToPound = inputNumber.value * pound;
          msg1Row3 = `${inputNumber.value} kilo = ${kiloToPound.toFixed(3)} pounds`;
@@ -62,10 +62,11 @@ function convertUnit(){
 
          gallonToLiter = inputNumber.value * gallon;
          msg1Row2 = `${inputNumber.value} liters = ${gallonToLiter.toFixed(3)} gallons`;
-         gToL.innerHTML = msg1Row2;
+         
          literToGallons = inputNumber.value / gallon;
          msg2Row2 = `${inputNumber.value} gallons = ${literToGallons.toFixed(3)} liters`;
-         lToG.innerHTML = msg2Row2;
+         gToL.innerHTML = msg2Row2;
+         lToG.innerHTML = msg1Row2;
 
          kiloToPound = inputNumber.value * pound;
          msg1Row3 = `${inputNumber.value} kilos = ${kiloToPound.toFixed(3)} pounds`;
