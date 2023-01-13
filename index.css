@@ -1,0 +1,101 @@
+body{
+    margin: 1% 0% 0% 5%;
+    align-self: center;
+    justify-self: center;
+    color: white;
+    width: 550px;
+    height: 729px;
+    border: 1px solid black;
+}
+input {
+    margin-bottom: 20px;
+    outline: none;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: white;
+    background-color: inherit;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    height:83px;
+    width: 117px;
+}
+button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
+    height: 42px;
+    width: 117px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+.section1{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: #FFFFFF;
+    height: 285px;
+    background-color: #6943FF;
+}
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+}
+.section2 {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    grid-row-gap: 18px;
+    color: white;
+    height: 444px;
+    background-color: #1F2937;
+}
+
+.container{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 500px;
+    height:108px;
+    background-color: #273549;
+}
+
+.unitTitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #CCC1FF;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.res {
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.res1{
+    padding-right: 6px;
+    border-right: 1px solid white;
+    margin-right: 6px;
+}
